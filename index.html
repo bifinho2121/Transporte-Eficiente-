@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transporte Eficiente</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Barra de navegação -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" class="tab-link active" data-target="home">Início</a></li>
+        <li><a href="#" class="tab-link" data-target="sobre">Sobre</a></li>
+        <li><a href="#" class="tab-link" data-target="contatos">Contatos</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Pesquisar..." />
+        <button id="search-button" onclick="searchFunction()">Buscar</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Conteúdo das Abas -->
+  <div id="home" class="content-tab active">
+    <!-- Seção Hero -->
+    <section class="section hero">
+      <div class="container">
+        <h1>Bem-vindo ao Transporte Eficiente!</h1>
+        <p>Explore nossos serviços e soluções criativas. Navegue pelas seções e saiba mais sobre o que podemos oferecer.</p>
+        <a href="#contatos" class="cta-button">Entre em Contato</a>
+      </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section class="section serviços">
+      <div class="container">
+        <h2>Serviços Oferecidos</h2>
+        <div class="servicos-grid">
+          <div class="servico">
+            <h3>Variedade de Serviços</h3>
+            <p>Se a empresa oferece uma gama diversificada de serviços (como transporte rodoviário, aéreo, marítimo, frete expresso, etc.), isso pode atender diferentes necessidades logísticas, tornando-a uma opção prática para diversos tipos de clientes.
+            </p>
+          </div>
+          <div class="servico">
+            <h3>Experiência e Reputação</h3>
+            <p>Tem um histórico sólido no mercado e boas avaliações de clientes anteriores, isso é um indicativo da qualidade do serviço prestado.</p>
+          </div>
+          <div class="servico">
+            <h3>Preços Competitivos</h3>
+            <p>A empresa tem tarifas justas e transparentes, isso pode ser um fator decisivo na escolha na sua escolha.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Depoimentos -->
+    <section class="section depoimentos bg-light">
+      <div class="container">
+        <h2>O Que Nossos Clientes Dizem</h2>
+        <div class="depoimentos-grid">
+          <div class="depoimento">
+            <p>"Este site mudou a forma como me conecto com meus clientes. O design é maravilhoso!"</p>
+            <h4>João Silva</h4>
+            <span>Empresário</span>
+          </div>
+          <div class="depoimento">
+            <p>"A consultoria foi essencial para o crescimento do meu negócio. Recomendo a todos!"</p>
+            <h4>Maria Oliveira</h4>
+            <span>Empreendedora</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Galeria -->
+    <section class="section galeria">
+      <div class="container">
+        <h2>Galeria de Projetos</h2>
+        <div class="galeria-grid">
+          <img src="imagens/imagem4.png" alt="Projeto 1">
+          <img src="imagens/imagem3.jpg" alt="Projeto 2">
+          <img src="imagens/imagem1.jpg" alt="Projeto 3">
+          <img src="imagens/imagem5.jpg" alt="Projeto 4">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="sobre" class="content-tab">
+    <!-- Seção Sobre -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>A Transporte Eficiente é Excelência em Transporte e Distribuição**  
+
+          Com mais de 10 anos de experiência, a Transporte Eficiente é referência em soluções personalizadas para transporte e distribuição de mercadorias. Nossa frota moderna, composta por caminhões, carretas e vans equipadas com tecnologia de ponta, garante eficiência e segurança em cada entrega.  
+          
+          Contamos com uma equipe de motoristas altamente treinados e profissionais dedicados que trabalham em parceria com nossos clientes para atender às suas necessidades específicas e oferecer um serviço ágil e confiável.  
+          
+          Comprometidos com a sua satisfação, entregamos mais que mercadorias: entregamos confiança e resultados. Entre em contato conosco e descubra como podemos ajudar você a atingir seus objetivos logísticos com excelência.</p>
+      </div>
+    </section>
+
+    <!-- Seção de Equipe -->
+    <section class="section equipe">
+      <div class="container">
+        <h2>Nossa Equipe</h2>
+        <div class="equipe-grid">
+          <div class="membro">
+            <img src="https://via.placeholder.com/150" alt="Membro 1">
+            <h3>Ana Luiza</h3>
+            <p>CEO & Fundador</p>
+          </div>
+          <div class="membro">
+            <img src="https://via.placeholder.com/150" alt="Membro 2">
+            <h3>Larissa Pereira</h3>
+            <p>CEO & Fundador</p>
+          </div>
+          <div class="membro">
+            <img src="https://via.placeholder.com/150" alt="Membro 3">
+            <h3>Nicolas das Neves</h3>
+            <p>CEO & Fundador</p>
+          </div>
+          <!-- Novo Membro Adicionado -->
+          <div class="membro">
+            <img src="https://via.placeholder.com/150" alt="Membro 4">
+            <h3>Julia da Silva</h3>
+            <p>CEO & Fundador</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="contatos" class="content-tab">
+    <!-- Seção de Contatos -->
+    <section class="section">
+      <div class="container">
+        <h2>Entre em Contato</h2>
+        <p>Tem alguma dúvida ou sugestão? Entre em contato conosco e nossa equipe irá responder o mais breve possível!</p>
+        
+        <div class="informacoes-contato">
+          <div>
+            <h3>Endereço</h3>
+            <p>Rua Exemplo, 123 - São Paulo, SP</p>
+          </div>
+          <div>
+            <h3>Telefone</h3>
+            <p>(21) 3363-4349</p>
+          </div>
+          <div>
+            <h3>Email</h3>
+            <p>efficient.transportation@gmail.com</p>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <input type="text" placeholder="Seu Nome" required>
+          <input type="email" placeholder="Seu Email" required>
+          <textarea placeholder="Mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
